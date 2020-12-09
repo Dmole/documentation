@@ -23,6 +23,9 @@ Example Setting:
 
 .. _plugin-replication-setting_replication_sync_timeout:
 
+
+Normally all replication is asynchronous. You can also optionally configure new mail saving to be synchronous, with a timeout to avoid waiting too long. This can be configured with: 
+
 ``replication_sync_timeout``
 ---------------------------------
 
@@ -33,5 +36,5 @@ Example Setting:
 
 .. code-block:: none
 
-   replication_sync_timeout = 2s
+   replication_sync_timeout = 2
 
